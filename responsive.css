@@ -1,0 +1,81 @@
+@media (max-width: 1000px){
+  /* // buat bikin css untuk responsive design */
+  .profile {
+    width: 60%;
+  }
+
+  .profile2 {
+    width: 90%;
+  }
+  
+  .studies {
+    width: 40%;
+  }
+
+}
+
+
+
+
+/* CONTACT */
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+  .screen{
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+  .screen{
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .profile2 {
+    width: 100%;
+  }
+  
+  .studies {
+    width: 60%;
+  }
+}
