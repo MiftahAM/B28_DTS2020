@@ -1,28 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     font-family: 'Roboto Slab', serif;
-    color: #f2f1f0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
-
-li {
-    list-style: none;
+.clear {
+  clear: left;
 }
 
-header {
-   background-color: #7a04dd;
-   height: 60px;
-}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 10px;
+  }
+
 
 .header-logo {
     float: left;
-}
-
-.header-logo p{
-    float: right;
-    margin-left: 10px;
 }
 
 .header-list {
@@ -32,30 +32,152 @@ header {
 .header-list li {
     float: left;
     margin-right: 10px;
-    margin-left: 10px;
-    padding-right: 25px;
 }
 
-.logo {
+
+header {
+height: 65px;
+width: 100%;
+background-color:rgba(107, 20, 107, 0.73) ;
+position :fixed;
+top: 0;
+z-index: 10;
+}
+  
+.top-wrapper {
+    padding: 180px 0 200px 0;
+    background-image: url(https://c0.wallpaperflare.com/preview/1/406/520/codes-coding-hacker-hacking.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+.fa {
+  margin-right: 5px;
+}
+  
+
+  
+  .logo {
     width: 124px;
+    margin-top: 15px;
+    margin-left: 25px
   }
   
-footer {
-    background-color: #7a04dd;
-    height: 120px;
-    padding: 40px;
-}
-
-.footer-logo {
+  .header-left {
     float: left;
-    font-size: 32px;
-    color: #fff;
-}
-
-.footer-list {
+  }
+  
+  .header-right {
     float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 10px 0;
+  display:  none;
+ 
 }
 
-.footer-list li {
-    padding-bottom: 20px;
+.content-1 {
+  height: 1000px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+  text-align: center;
 }
+
+.content-1 h2{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.content-2{
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.content-3 {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.profile {
+  float: left;
+  width: 30%;
+}
+
+.profile-list p{
+  font-size: 15px;
+  color: #512b58;
+}
+
+.profile2 {
+  padding-top: 50px;
+  float: left;
+  width: 45%;
+}
+
+.studies {
+  float: left;
+  width: 20%;
+}
+
+.study p{
+  font-size: 15px;
+  color: #512b58;
+}
+
+.study img{
+  width: 125px;
+}
+
+
+.txt-contents {
+  width: 50%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.txt-contents2 {
+  width: 50%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    background-color:#512b58;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
